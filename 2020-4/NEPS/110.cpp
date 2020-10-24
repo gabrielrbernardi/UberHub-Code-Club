@@ -2,19 +2,20 @@
 
 using namespace std;
 
-int vet[100000];
+long int vet[100000];
 int main(){
-    int valDigitado, qtd;
-    vector<int> valoresDigitados;
+    int valDigitado, qtd, status = -1, ma = 0;
     cin >> qtd;
     for (int i = 0; i < qtd; i++){
         cin >> valDigitado;
         vet[valDigitado-1]++;
-        for (int j = 0; j < valoresDigitados.size(); j++){
-            if(valDigitado == valoresDigitados[j]){
-                break;
-            }
-        }
-        valoresDigitados.push_back(valDigitado);
     }
+    cout << 1 << endl;
+    for (int i = 0; i < 1000000; i++){
+        if(vet[i] > ma){
+            cout << 2 << endl;
+            ma = vet[i];
+        }
+    }
+    cout << ma << endl;
 }
