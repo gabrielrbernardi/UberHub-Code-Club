@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 int main(){
-    int vet[10];
+    int x[10];
     for(int i = 0; i < 10; i++){
-        cin >> vet[i];
-        if(vet[i] <= 0){
-            vet[i] = 1;
+        cin >> x[i];
+    }
+    for(int i = 0; i < 10; i++){
+        if(x[i] <= 0){
+            x[i] = 1;
         }
     }
     for(int i = 0; i < 10; i++){
-        cout << "X[" << i << "] = " << vet[i] << endl;
+        cout << "X[" << i << "] = " << x[i] << endl;
     }
 }
