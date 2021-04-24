@@ -1,3 +1,8 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.pl": "prolog",
+        "ostream": "cpp",
+        "iomanip": "cpp"
+    }
 }
