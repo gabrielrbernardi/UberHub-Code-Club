@@ -25,4 +25,5 @@ int main(){
     int valorBusca = 10;
     int qtd = count(vet.begin(), vet.end(), valorBusca);
     cout << "A quantidade de vezes que o " << valorBusca << " aparece no vetor eh: " << qtd << endl;
+    cout << "A quantidade de elementos no vetor eh: " << vet.size() << endl;
 }
