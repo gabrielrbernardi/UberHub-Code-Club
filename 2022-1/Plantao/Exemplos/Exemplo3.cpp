@@ -11,9 +11,15 @@ int main(){
         }
     }
 
+    // mat[0]
+
+    for(int j = 0; j < 3; j++){
+        soma = soma + mat[0][j];
+    }
+
     int vet[10];
 
-    for(int i = 9; i >= 0; i--){
-        cin >> vet[i];
+    for(int j = 9; j >= 0; j--){
+        cin >> vet[j];
     }
 }
