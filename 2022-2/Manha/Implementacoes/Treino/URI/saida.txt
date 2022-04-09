@@ -1,0 +1,16 @@
+Time 01 ganhou: 1
+Time 01 ganhou: 1
+Time 01 ganhou: 1
+Time 01 ganhou: 1
+Time 01 ganhou: 2
+Time 01 ganhou: 2
+Time 01 ganhou: 2
+time 02 ganhou: 4
+time 02 ganhou: 5
+Time 01 ganhou: 4
+Instancia 1
+1 8
+2 7
+3 4
+4 6
+5 5
