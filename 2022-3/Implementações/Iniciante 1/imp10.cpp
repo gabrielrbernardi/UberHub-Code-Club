@@ -46,7 +46,17 @@ int main(){
         cout << endl;
     }
     
-    
+    string str;
+
+    cin >> str;                      //Le string ate ' '
+    getline(cin, str);               //Le string ate '\n'
+    str.size();                      //Retorna tamanho da string
+    str.at(1);                       //Retorna caractere na posicao 1
+    str.push_back('.');              //Adiciona o caractere '.'
+    str.append("fim");               //Adiciona a string "fim"
+    str.erase(0, str.length());      //Apaga o trecho especificado
+    reverse(str.begin(), str.end()); //Inverte a string
+
 }
 
 
