@@ -33,9 +33,10 @@ int main(){
             tempString += fraseATraduzir[i];
         }
     }
-    
+    //adiciona a ultima palavra, que nao tem o separador, no vector
     stringsQuebradas.push_back(tempString);
 
+    //mostra a string traduzida, na tela, de acordo com as especificacoes
     for(int i = 0; i < stringsQuebradas.size(); i++){
         if(i == stringsQuebradas.size() - 1){
             cout << dicionario[stringsQuebradas.at(i)] << endl;
