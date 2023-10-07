@@ -17,7 +17,7 @@ int main(){
     vet.push_back(0);
     vet.push_back(4);
     mostraVetor(vet);
-    sort(vet.begin(), vet.end());
-    // sort(vet.begin(), vet.end(), greater<int>());
+    // sort(vet.begin(), vet.end());
+    sort(vet.begin(), vet.end(), greater<int>());
     mostraVetor(vet);
 }
